@@ -1,0 +1,9 @@
+.main-wrapper {
+    width: 100%;
+    min-width: 621px;
+    position: relative;
+    top: 120px;
+    z-index: -1;
+}
+
+  

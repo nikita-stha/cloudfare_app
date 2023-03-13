@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.App{
+  text-align: center;
+}
+
+.card{
+  padding: 20px 20px;
+  width:100%;
+  height:"300px"; 
+  min-width:"300px";
+}
+
+.card h2{
+  text-align: center;
+}
+
+.card div{
+  display: flex;
+  justify-content: center;
+}
+
+.card div table{
+  border: 2px solid rgb(83, 110, 83);
+  width: 800px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.card div table tbody{
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 200px;
+}
+
+.card div table thead tr {
+  display: block;
+}
+
+/* .card div table thead {
+  display: block;
+} */
+
+.card div table th{
+  border-bottom: 1px solid black;
+  padding: 5px 5px;
+}
+
+.card div table td {
+  text-align: center;
+  padding: 5px 5px;
+}
